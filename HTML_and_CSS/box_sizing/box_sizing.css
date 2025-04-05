@@ -1,0 +1,22 @@
+/* *{
+    box-sizing: border-box;
+} */
+/* *{
+    box-sizing:content-box;
+} */
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:medium ;
+    background-color: rgb(5, 138, 5);
+    color: black;
+    width: 157px;
+    height: 38px;
+    padding: 10px; 
+    margin: 15px;
+    /* box-sizing:content-box; */
+    box-sizing: border-box;
+    border:5px solid rgb(100, 45, 45);
+    
+    
+
+}

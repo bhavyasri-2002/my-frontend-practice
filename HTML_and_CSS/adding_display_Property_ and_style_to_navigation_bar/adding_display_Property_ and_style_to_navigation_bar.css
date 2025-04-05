@@ -1,0 +1,25 @@
+.main-header {
+    width: 100%;
+    background-color: darkgreen;
+    padding: 8px 16px;
+
+}
+.main-header > div{
+    display: inline-block;
+}
+.main-nav{
+    display: inline-block;
+}
+.main-nav__item {
+    display: inline-block;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 124456;
+    font-weight: 200px;
+    background-color: blue;
+    padding: 20px;
+    margin: 20px;
+    border: 20px solid rgb(168, 24, 24);
+}
