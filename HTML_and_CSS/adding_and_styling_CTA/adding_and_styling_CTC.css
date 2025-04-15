@@ -4,9 +4,9 @@
     padding: 8px 16px;
 }
 
-.main-header > div{
+.main-header>div {
     display: inline-block;
-} 
+}
 
 .main-nav__items {
     padding: 0;
@@ -24,10 +24,10 @@
 
 }
 
-.main-nav{
+.main-nav {
     display: inline-block;
     text-align: right;
-    width: calc(100% - 133px); 
+    width: calc(100% - 133px);
 }
 
 .main-nav__item {
@@ -53,13 +53,14 @@ h1 {
 }
 
 .main-nav__item a:hover,
-.main-nav__item a:active{
+.main-nav__item a:active {
     color: white;
-    border-bottom: 4px solid white ;
+    border-bottom: 4px solid white;
 }
-.main-nav__item--CTA a{
+
+.main-nav__item--CTA a {
     color: white;
-    background:red;
+    background: red;
     padding: 6px 12px;
-    border-radius:10px;
+    border-radius: 10px;
 }
