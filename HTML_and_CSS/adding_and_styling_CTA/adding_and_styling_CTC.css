@@ -27,7 +27,7 @@
 .main-nav {
     display: inline-block;
     text-align: right;
-    width: calc(100% - 133px);
+    width: calc(100% - 145px);
 }
 
 .main-nav__item {
