@@ -1,0 +1,30 @@
+body {
+    font-family: sans-serif;
+}
+
+nav {
+    margin-bottom: 16px;
+    background: #fa923f;
+    padding: 8px 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}
+
+.main-section {
+    height: 800px;
+    border: 1px solid #ccc;
+    padding: 16px;
+}
+
+.highlighted1 {
+    border: 3px solid #fa923f;
+    margin-bottom: 16px;
+}
+
+.highlighted2 {
+    border: 3px solid #2cccc4;
+}
