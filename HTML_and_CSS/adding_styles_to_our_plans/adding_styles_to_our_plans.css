@@ -1,0 +1,109 @@
+.main-header {
+    width: auto;
+    background-color: darkgreen;
+    padding: 8px 16px;
+}
+
+.main-header>div {
+    display: inline-block;
+}
+
+.main-nav__items {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.main-header_brand {
+    color: rgb(3, 51, 3);
+    font-size: 2.5rem;
+    font-weight: bolder;
+    vertical-align: middle;
+    text-decoration: none;
+    margin-left: 30px;
+
+}
+
+.main-nav {
+    display: inline-block;
+    text-align: right;
+    width: calc(100% - 145px);
+}
+
+.main-nav__item {
+    display: inline-block;
+    margin: 0 2.5rem;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 124456;
+    font-weight: 200px;
+    background: url("./../../../../../girl_pic.jpg");
+    /* background:url("./freedom.webp"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 300px;
+    margin: 0px;
+    border: 20px solid rgb(168, 24, 24);
+}
+
+
+p {
+    font-family: sans-seri;
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgb(22, 124, 22);
+    text-align: center;
+}
+
+
+.plan {
+    background-color: #72d482;
+    text-align: center;
+    padding: 12px;
+    margin: 6px;
+    display: inline-block;
+    width: 30%;
+    vertical-align: middle;
+}
+
+
+.main-nav__item a {
+    text-decoration: none;
+    color: rgb(3, 51, 3);
+    font-weight: 500;
+    padding: 3px 0;
+}
+
+.main-nav__item a:hover,
+.main-nav__item a:active {
+    color: white;
+    border-bottom: 4px solid white;
+}
+
+.main-nav__item--CTA a {
+    color: white;
+    background: red;
+    padding: 6px 12px;
+    border-radius: 10px;
+}
+
+/* .main-header{
+    width: 100%;
+    background: #2ddf5c;
+    padding: 8px 166px;
+} */
+/* .product-overview h2 {
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(68, 224, 68);
+    } */
+/* 
+    #product-overview h1 {
+        color: white;
+        font-family: 'Anton',sans-serif;
+    } */
+
+/* .section-title {
+        color: rgb(23, 151, 23);
+    } */

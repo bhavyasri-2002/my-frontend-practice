@@ -1,0 +1,26 @@
+body {
+    font-family: sans-serif;
+}
+
+nav {
+    margin-bottom: 16px;
+    background: #fa923f;
+    padding: 8px 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}
+
+a:not(.active) {
+    color: rgb(255, 4, 4);
+}
+
+.main-section {
+    height: 200px;
+    border: 10px solid #ccc;
+    padding: 16px;
+    margin-bottom: 10px;
+}
