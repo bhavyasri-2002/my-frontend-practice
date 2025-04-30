@@ -68,6 +68,7 @@ p {
     vertical-align: middle;
 }
 
+
 .plan--highlighted {
     background-color: rgb(19, 119, 19);
     color: white;
@@ -86,6 +87,32 @@ p {
     padding: 2px;
     box-shadow: 2px 2px 2px 2px rgb(37, 36, 36);
     border-radius: 8px;
+}
+
+.plan__title {
+    color: rgb(77, 54, 54);
+}
+
+.plan__price {
+    color: rgb(85, 52, 52);
+}
+
+.plan--highlighted .plan__price {
+    color: #094712;
+}
+
+.plan--highlighted .plan__title{
+    color: #0a2b0f;
+}
+
+.plan__features {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.plan__feature {
+    padding: 2px 0px;
 }
 
 .main-nav__item a {
