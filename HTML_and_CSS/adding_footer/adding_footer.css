@@ -163,6 +163,7 @@ p {
     margin: auto;
 }
 
+
 .button {
     color: aqua;
     background-color: black;
@@ -197,4 +198,32 @@ p {
     background: red;
     padding: 6px 12px;
     border-radius: 10px;
+}
+
+.main-footer {
+    background: black;
+    padding: 32px;
+    margin-top: 48px;
+}
+
+.main-footer__links {
+    list-style: none;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+.main-footer__link {
+    display: inline-block;
+    margin: 0px 16px;
+}
+
+.main-footer__link a {
+    color: white;
+    text-decoration: none;
+}
+
+.main-footer__link a:hover,
+.main-footer__link a:active {
+    color: #916262;
 }
